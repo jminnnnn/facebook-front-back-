@@ -492,9 +492,10 @@
     height: 23px;
     background-color: #fff;
     position: relatve;
+    
 }
 
-#header .inner .left button{
+#header .inner .left > button{
     position: absolute;
     right:-20px;
     padding: 4px 10px;
@@ -545,3 +546,7 @@
     margin-right:0;
 }
 /* 아이콘 전체에 대해 margin-right이 있는데 여기는 적용안한다는 것 */
+
+#header .icon--bell-black{
+    position:relative;
+}
