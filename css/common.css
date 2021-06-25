@@ -485,14 +485,15 @@
 
 #header .inner .left{
     display:flex;
+    
 }
 
 #header .inner .left .search_container{
     width: 380px;
     height: 23px;
     background-color: #fff;
-    position: relatve;
-    
+    position: relative;
+    /* display: flex; */
 }
 
 #header .inner .left > button{
