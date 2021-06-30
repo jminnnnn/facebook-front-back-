@@ -652,10 +652,34 @@ body{
 #wrapper .inner .left_box{
     width: 180px;
     height: 500px;
-    background: tomato;
+    /* background: tomato; */
     position: fixed;
     top:52px;
     left:300px;
     font-size: 12px;
 }
+.left_box .icon--more {
+    margin-left: auto;
+}
+.left_box .my_name {
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
 
+.left_box .my_name > a{
+    display: flex;
+    align-items: center;
+}
+
+.left_box .list > li{
+    padding: 5px 10px;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+
+}
+
+.left_box .list > li:hover{
+    background: var(--fds--gray-00);
+    border: 1px solid #dddfe2;
+}
